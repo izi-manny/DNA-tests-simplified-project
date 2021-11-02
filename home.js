@@ -1,8 +1,8 @@
 
-const dnaAnimation = document.querySelector('loader')
+// const dnaAnimation = document.querySelector('loader')
 
-dnaAnimation.addEventListener('click', pauseAnimation)
+// dnaAnimation.addEventListener('click', pauseAnimation)
 
-function pauseAnimation(){
-    element.style.animationPlayState = 'paused';
-}
+// function pauseAnimation(){
+//     element.style.animationPlayState = 'paused';
+// }

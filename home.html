@@ -9,12 +9,20 @@
 </head>
 <body>
     <header>
-        <h1>DNA Tests Explainer</h1>
+        <img src="/Assets/dna-icon3.png" alt="DNA icon" id="icon">
+        <h1 id="logo">DNA Tests Explainer</h1>
+        <nav class="navMenu">
+            <a href="/home.html">Home</a>
+            <a href="ancestry.html">Ancestry</a>
+            <div id="indicator"></div>
+        </nav>
     </header>
 
     <div id="dna-strand-container"></div>
 
-    <div id="intro-container">        
+    <div id="intro-container">  
+        <h1>What is DNA? What is it used for?</h1>
+        <p>DNA is a tiny molecule that is found in nearly all cells in our body. Similar to computer code, it contains the instructions for building the proteins that make up our body.</p>      
         <div class="dna-strand-wrapper">
             <div class="loader">
               <div class="wave top-wave">
@@ -43,10 +51,10 @@
               </div>
             </div>
           </div>
-        <h1>What is DNA? What is it used for?</h1>
-        <p>DNA is a tiny molecule that is found in nearly all cells in our body. Similar to computer code, it contains the instructions for building the proteins that make up our body.</p>
+
         <br>
         <p>The human genome contains some <strong>6.4 billion base pairs(!)</strong>. Sequencing the first human genome originally cost over $3 billion. Today, that price has been brought down to below $300. We've come a long way!</p>
+        <img src="https://www.genome.gov/sites/default/files/inline-images/2021_Sequencing_cost_per_Human_Genome.jpg" alt="">
     </div>
 
     <div id="intro-container-2">
@@ -63,7 +71,7 @@
             <div class="card-body">
                 <h2>DNA for Ancestry purposes</h2>
                 <p>DNA can be used to reconstruct family history, genealogical as well as deep roots</p>
-                <a href="#both-box">Read more</a>
+                <a href="#ancestry-breakdown">Read more</a>
             </div>
         </div>
 
@@ -74,7 +82,7 @@
             <div class="card-body">
                 <h2>DNA for Health purposes</h2>
                 <p>DNA tests can measure disposition to certain diseases and help prevent them early</p>
-                <a href="#both-box">Read more</a>
+                <a href="#health-breakdown">Read more</a>
             </div>
         </div>
         <div class="card" id="both-box">
@@ -84,15 +92,30 @@
             <div class="card-body">
                 <h2>DNA for both Ancestry and Health</h2>
                 <p>A Whole Genome Sequence can yield useful info for both ancestry and health purposes</p>
-                <a href="#both-box">Read more</a>
+                <a href="#wgs-breakdown">Read more</a>
             </div>
     </section>
 
     <section class="tests-breakdown">
         <div class="test-explanation" id="ancestry-breakdown">
-            
+            <h2>Ancestry DNA Tests</h2>
+            <img src="https://www.ancestry.com/corporate/sites/default/files/media-library/worldregionsmap2021.png" alt="world ancestry map image">
+        </div>
+
+        <div class="test-explanation" id="health-breakdown">
+            <h2>Health DNA Tests</h2>
+            <img src="https://www.healthylifedenver.com/wp-content/uploads/2014/09/bigstock-DNA-strand-illustration-37892449.jpg" alt="health dna image">
+        </div>
+
+        <div class="test-explanation" id="wgs-breakdown">
+            <h2>Whole Genome Sequence</h2>
+            <img src="https://sphweb.bumc.bu.edu/otlt/MPH-Modules/PH/DNA-Genetics/HumanChromosomeSetm.jpg" alt="chromosomes image">
         </div>
     </section>
+
+    <div id="home-link">
+        <a href="#logo">Click here to go back up</a>
+    </div>
 
 </body>
 </html>
