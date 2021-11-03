@@ -56,7 +56,7 @@ nav
 nav a
 {
     position: relative;
-    width: 33.333%;
+    width: 36%;
     display: table-cell;
     text-align: center;
     color: #fcfcfc;
@@ -151,7 +151,7 @@ nav a:nth-child(1):hover ~ #indicator
 
 nav a:nth-child(2):hover ~ #indicator
 {
-    left: 37%;
+    left: 41%;
     background: linear-gradient(130deg, #00e2ff, #89ff00);
 }
 
@@ -322,8 +322,16 @@ nav a:nth-child(3):hover ~ #indicator
     color: #000;
 }
 
+.tests-breakdown{
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  height: auto;
+  font-size: 22px;
+}
+
 .test-explanation{
-        display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -333,14 +341,15 @@ nav a:nth-child(3):hover ~ #indicator
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    margin: 30px;
     padding: 30px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 .test-explanation img{
     width: 100%;
-    height: 200px;
-    object-fit: cover;
+    height: 600px;
+    object-fit: contain;
 }
 
 #home-link{
@@ -353,6 +362,30 @@ nav a:nth-child(3):hover ~ #indicator
 a{
     text-decoration: none;
 }
+
+
+#btnScrollToTop{
+  position: fixed;
+  background-color: transparent;
+  height: auto;
+  bottom: 10px;
+  transform: translate(-50%);
+  border: none;
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+} 
+
+ #btnScrollToTop img{
+  width: 45px;
+  height: 45px;
+  border-radius: 50% 50%;
+  cursor: pointer;
+}
+
+#btnScrollToTop img:active{
+  background-color: #ffffff;
+}
+
 
 
 /* DNA Animation */

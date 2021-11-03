@@ -125,7 +125,7 @@ nav a:nth-child(3):after
 #indicator
 {
     position: absolute;
-    left: 8%;
+    left: 39%;
     bottom: 0;
     width: 30px;
     height: 3px;
@@ -146,12 +146,13 @@ nav a:hover:before, nav a:hover:after
 
 nav a:nth-child(1):hover ~ #indicator
 {
+    left: 7%;
     background: linear-gradient(130deg, yellow, red);
 }
 
 nav a:nth-child(2):hover ~ #indicator
 {
-    left: 37%;
+    left: 38%;
     background: linear-gradient(130deg, #00e2ff, #89ff00);
 }
 
@@ -242,13 +243,14 @@ nav a:nth-child(3):hover ~ #indicator
     font-size: 1rem;
     padding: 5px;
     background-color: #F2F9FB;
+    border-radius: 3px;
 }
 
 
 .btn {
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: bolder;
     border-radius: 3px;
     background-color: transparent;
     border: 3px solid #333;
