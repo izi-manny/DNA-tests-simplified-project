@@ -1,64 +1,100 @@
 [
     {
         "region": "Northern-Europe",
-        "R1b": 42,
-        "I1": 16,
-        "R1a": 13,
-        "I2": 5,
-        "E1b": 4,
-        "G2a": 2,
-        "J2": 1.5
+        "distribution": {
+            "R1b": 42,
+            "I1": 16,
+            "R1a": 13,
+            "I2": 5,
+            "E1b": 4,
+            "G2a": 2,
+            "J2": 1.5
+        }
     }, 
     {
         "region": "Southern-Europe",
-        "I2": 20,
-        "E1b": 20,
-        "J2": 15,
-        "R1b": 12,
-        "I1": 3.5,
-        "R1a": 7,
-        "G2a": 6
+        "distribution": {
+            "I2": 20,
+            "E1b": 20,
+            "J2": 15,
+            "R1b": 12,
+            "I1": 3.5,
+            "R1a": 7,
+            "G2a": 6
+        }
     },
     {
         "region": "Middle-East",
-        "J2": 24,
-        "J1": 16,
-        "E1b": 10,
-        "G": 10,
-        "T": 6
+        "distribution": {
+            "J2": 24,
+            "J1": 16,
+            "E1b": 10,
+            "G": 10,
+            "T": 6
+        }
     },
     {
         "region": "Sub-Saharan-Africa",
-        "A": 62,
-        "B": 23,
-        "E": 12
+        "distribution": {
+            "A": 62,
+            "B": 23,
+            "E": 12,
+            "R1b": 3
+        }
     },
     {
         "region": "North-Africa",
-        "E1b": 65,
-        "J1": 16,
-        "R1b": 5.5,
-        "J2": 4
+        "distribution": {
+            "E1b": 65,
+            "J1": 16,
+            "R1b": 5.5,
+            "J2": 4
+        }
     },
     {
         "region": "South-Asia",
-        "H": 23.5,
-        "F": 16,
-        "K": 14,
-        "R1a": 8
+        "distribution": {
+            "H": 23.5,
+            "F": 16,
+            "K": 14,
+            "R1a": 8
+        }
     },
     {
         "region": "East-Southeast-Asia",
-        "O2": 33,
-        "O1": 16,
-        "C": 8.5,
-        "D": 5
+        "distribution": {
+            "O2": 33,
+            "O1": 16,
+            "C": 8.5,
+            "D": 5
+        }
     },
     {
         "region": "Central-Asia",
-        "O2": 33,
-        "O1": 16,
-        "C": 8.5,
-        "D": 5
+        "distribution": {
+            "O2": 33,
+            "O1": 16,
+            "C": 10,
+            "N": 7,
+            "D": 5
+        }
+    },
+    {
+        "region": "Americas",
+        "distribution": {
+            "Q": 42,
+            "C": 42,
+            "R1": 10
+        }
+    },
+    {
+        "region": "Oceania",
+        "distribution": {
+            "M": 40,
+            "K": 30,
+            "S": 10,
+            "C": 10,
+            "O": 7
+        }
     }
 ]

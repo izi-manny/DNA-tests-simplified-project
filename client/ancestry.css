@@ -206,8 +206,14 @@ nav a:nth-child(3):hover ~ #indicator
 
 #haplogroup-container img{
     width: 100%;
-    height: 100%;
+    height: 100%; 
     object-fit: cover;
+}
+
+.haplo-image{
+    max-width: 100%;
+    height: auto;
+    /* object-fit: cover; */
 }
 
 .haplogroup-predictor{
@@ -230,3 +236,45 @@ nav a:nth-child(3):hover ~ #indicator
     animation-name: slideInFromTop;
     animation-duration: 2s;
 }
+
+.region-select{
+    box-shadow: 0 5px 10px rgb(112, 112, 112);
+    font-size: 1rem;
+    padding: 5px;
+    background-color: #F2F9FB;
+}
+
+
+.btn {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 3px solid #333;
+    padding: 6px 12px;
+    transition: all 0.5s ease;
+    cursor:pointer;
+  }
+  .btn:hover,
+  button:hover {
+    outline: 0;
+    color: rgb(0, 0, 0);
+  }
+  .btn:active,
+  button:active {
+    outline: 0;
+    color: #fff;
+  }
+  
+  .btn-cont {
+    padding: 0.7em 1.5em;
+    border: none;
+    color: #fff;
+    background: linear-gradient(to left, #26BFA6 50%, #C1FFF5 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+  }
+  .btn-cont:hover {
+    background-position: left bottom;
+  }

@@ -33,7 +33,8 @@
             <p>Select your region:</p>
             <form action="" id="region-form">
                 <!-- <label for="region">Region</label> -->
-                <select name="region" id="region">
+                <select name="region" id="region" class="region-select">
+                    <option disabled selected hidden>Choose region</option>
                     <option value="Northern-Europe">Northern Europe</option>
                     <option value="Southern-Europe">Southern Europe</option>
                     <option value="Middle-East">Middle East</option>
@@ -45,7 +46,7 @@
                     <option value="Americas">Americas</option>
                     <option value="Oceania">Oceania</option>
                 </select>
-                <button type="submit" id="paternal-region-button">Submit</button>
+                <button type="submit" id="region-button" class="btn btn-cont">Submit</button>
             </form>
             <div id="haplogroup-results">
 
@@ -57,6 +58,5 @@
     <!-- <script src="./node_modules/axios/dist/axios.min.js"></script> -->
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="./app.js"></script>
-
 </body>
 </html>
