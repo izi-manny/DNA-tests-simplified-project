@@ -36,6 +36,7 @@ header h1{
     justify-content: center;
     width: 100%;
     color: #c1fff5;
+    text-shadow: 2px 3px 3px #292929;
 }
 
 nav

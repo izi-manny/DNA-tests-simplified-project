@@ -1,0 +1,64 @@
+[
+    {
+        "region": "Northern-Europe",
+        "R1b": 42,
+        "I1": 16,
+        "R1a": 13,
+        "I2": 5,
+        "E1b": 4,
+        "G2a": 2,
+        "J2": 1.5
+    }, 
+    {
+        "region": "Southern-Europe",
+        "I2": 20,
+        "E1b": 20,
+        "J2": 15,
+        "R1b": 12,
+        "I1": 3.5,
+        "R1a": 7,
+        "G2a": 6
+    },
+    {
+        "region": "Middle-East",
+        "J2": 24,
+        "J1": 16,
+        "E1b": 10,
+        "G": 10,
+        "T": 6
+    },
+    {
+        "region": "Sub-Saharan-Africa",
+        "A": 62,
+        "B": 23,
+        "E": 12
+    },
+    {
+        "region": "North-Africa",
+        "E1b": 65,
+        "J1": 16,
+        "R1b": 5.5,
+        "J2": 4
+    },
+    {
+        "region": "South-Asia",
+        "H": 23.5,
+        "F": 16,
+        "K": 14,
+        "R1a": 8
+    },
+    {
+        "region": "East-Southeast-Asia",
+        "O2": 33,
+        "O1": 16,
+        "C": 8.5,
+        "D": 5
+    },
+    {
+        "region": "Central-Asia",
+        "O2": 33,
+        "O1": 16,
+        "C": 8.5,
+        "D": 5
+    }
+]

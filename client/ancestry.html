@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ancestry.css">
+    <title>Ancestry DNA Tests</title>
+</head>
+<body>
+    <header>
+        <img src="/assets/dna-icon3.png" alt="DNA icon" id="icon">
+        <h1 id="logo">DNA Simplified</h1>
+        <nav class="navMenu">
+            <a href="/client/home.html">Home</a>
+            <a href="ancestry.html">Ancestry</a>
+            <div id="indicator"></div>
+        </nav>
+    </header>
+
+    <section id="haplogroup-container">
+        <p>Unlocking the DNA code allows us to trace back the migration paths our ancestors took.
+
+            These genetic groups are called <strong>Haplogroups</strong>.</p>
+        <img src="/assets/World_Map_of_Y-DNA_Haplogroups.png" alt="">
+            <br>
+        </section>
+        
+    <section class="haplogroup-predictor" id="haplogroup-predictor">
+        <div id="y-haplogroup">
+            <h2>Haplogroup Predictor</h2>
+            <p>Below you can select the region from where your known paternal ancestry originates to find the likely haplogroup you belong to </p>
+            <p>Select your region:</p>
+            <form action="" id="region-form">
+                <!-- <label for="region">Region</label> -->
+                <select name="region" id="region">
+                    <option value="Northern-Europe">Northern Europe</option>
+                    <option value="Southern-Europe">Southern Europe</option>
+                    <option value="Middle-East">Middle East</option>
+                    <option value="Sub-Saharan-Africa">Sub-Saharan Africa</option>
+                    <option value="North-Africa">North Africa</option>
+                    <option value="South-Asia">South Asia</option>
+                    <option value="East-Southeast-Asia">East and Southeast Asia</option>
+                    <option value="Central-Asia">Central Asia</option>
+                    <option value="Americas">Americas</option>
+                    <option value="Oceania">Oceania</option>
+                </select>
+                <button type="submit" id="paternal-region-button">Submit</button>
+            </form>
+            <div id="haplogroup-results">
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- <script src="./node_modules/axios/dist/axios.min.js"></script> -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./app.js"></script>
+
+</body>
+</html>

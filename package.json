@@ -1,0 +1,25 @@
+{
+  "name": "dna-explainer-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izi-manny/DNA-tests-simplified-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/izi-manny/DNA-tests-simplified-project/issues"
+  },
+  "homepage": "https://github.com/izi-manny/DNA-tests-simplified-project#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
