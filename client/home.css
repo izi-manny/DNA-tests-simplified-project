@@ -427,6 +427,10 @@ nav a:nth-child(3):hover ~ #indicator
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.test-explanation p {
+  line-height: 30px;
+}
+
 .test-explanation img{
     width: 100%;
     height: 400px;
