@@ -6,7 +6,11 @@ The haplogroup prediction feature allows users to select the region where their 
 
 # Demo
 
+## Homepage
+
 ![Homepage demo](https://github.com/izi-manny/DNA-tests-simplified-project/blob/main/Assets/dna-explained-home.gif)
+
+## Haplogroup predictor tool
 
 ![Haplogroup tool demo](https://github.com/izi-manny/DNA-tests-simplified-project/blob/main/Assets/dna-explained-predictor.gif)
 
